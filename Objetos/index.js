@@ -59,11 +59,7 @@ function minhaFuncao(pessoa, pessoa2) {
         }
         const arrpessoa = [novaPessoa.nome, novaPessoa.nome.length, novaPessoa.idade, novaPessoa.profissao, novaPessoa.profissao.length]
         return arrpessoa 
-    }
-console.log(minhaFuncao(pessoa))
-
-//3
-
+   
 carrinho = []
 
 const fruta1 = {
@@ -96,9 +92,6 @@ carrinho = [fruta1, fruta2, fruta3]
 console.log(sacolao(carrinho.fruta1))
 
 
-//
-
-
 const calor = false
 const frio = true
 
@@ -109,14 +102,3 @@ if(frio){
         console.log(`Liga o som e vai arrumar casa`)
     }
 }
-
-
-
-
-//.......................
-
-const nome = prompt("Qual seu nome ?")
-const idade = prompt('Qual a sua idade ?')
-const seuTime = prompt("Qual seu time de coração ?")
-
-console.log(`Meu nome è ${nome}, tenho ${idade}, e torço para o ${seuTime}`)
