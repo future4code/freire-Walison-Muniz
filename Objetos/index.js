@@ -59,13 +59,7 @@ function minhaFuncao(pessoa, pessoa2) {
         }
         const arrpessoa = [novaPessoa.nome, novaPessoa.nome.length, novaPessoa.idade, novaPessoa.profissao, novaPessoa.profissao.length]
         return arrpessoa 
-    }
-console.log(minhaFuncao(pessoa))
-
-
-//3
-
-
+   
 carrinho = []
 
 const fruta1 = {
@@ -96,3 +90,15 @@ carrinho = [fruta1, fruta2, fruta3]
 
 }
 console.log(sacolao(carrinho.fruta1))
+
+
+const calor = false
+const frio = true
+
+if(frio){
+    console.log(`Pega o cobertor e o chocolate`)
+}else{
+    if(calor){
+        console.log(`Liga o som e vai arrumar casa`)
+    }
+}
