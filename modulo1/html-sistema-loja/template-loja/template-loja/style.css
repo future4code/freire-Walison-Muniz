@@ -1,0 +1,32 @@
+h1 {
+     color: rgb(57, 29, 216);
+     background-color: rgb(241, 226, 15);    
+}
+.img-produto {
+     width: 200px;
+}
+body {
+    color: rgb(17, 2, 8);
+    font-family: gotham, arial, helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+td {
+    font-size: 15px;
+    padding: 15;
+}
+p {
+    font-size: 15px;
+    padding: 15;
+}
+h2 {
+    font-size: 15px;
+    font-style: italic;
+}
+li {
+    font-size: 10;
+}
+header{
+    color: rgb(12, 2, 22);
+}
