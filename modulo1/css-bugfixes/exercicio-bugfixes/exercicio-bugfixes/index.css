@@ -72,6 +72,11 @@ div img {
     color: white;
     padding: 100px;
 }
+#container-de-descricao > p {
+    display: block;
+    max-width: 25ch;
+    margin: 80px auto 0px;
+}
 
 #container-de-descricao>ol {
     padding: 5px 0px;
