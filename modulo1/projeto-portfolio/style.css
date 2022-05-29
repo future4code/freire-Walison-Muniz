@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+
+body {
+    background-image: url(./agregador/png.png);
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    color: #1e1e2a;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 50%;
+    border: 5px solid rgb(26, 1, 1);
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 35%;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 29%;
+}
+
+header h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 32%;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    height: 100x;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 400ms ease-in-out 0s;
+}
+
+.checkbox .trace {
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+}
+
+.checkbox .trace:nth-child(1) {
+    top: 26px;
+    transform: rotate(0);
+}
+
+.checkbox .trace:nth-child(2) {
+    top: 46px;
+    transform: rotate(0);
+}
+
+.checkbox .trace:nth-child(3) {
+    top: 66px;
+    transform: rotate(0);
+}
+
+#toggle {
+    display: none;
+}
+
+.menu {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    background-color: transparent;
+    height: 4px;
+    width: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px rgb(236, 233, 233);
+    z-index: -1;
+    transition: 400ms ease-in-out 0s;
+}
+
+.menu-items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms ease-in-out 0s;
+}
+
+.menu-items ul {
+    list-style-type: none;
+}
+
+.menu-items :hover,
+.menu-items :active {
+    background-color: rgb(175, 192, 218);
+}
+
+.menu-items ul li a {
+    margin: 10px 0;
+    color: #1e1e2a;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+
+}
+
+#toggle:checked+.checkbox .trace:nth-child(1) {
+    transform: rotate(45deg);
+    top: 47px;
+}
+
+#toggle:checked+.checkbox .trace:nth-child(2) {
+    transform: translate(-100px);
+    width: 50px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#toggle:checked+.checkbox .trace:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 48px;
+}
+
+#toogle:checked+.checkbox {
+    background-color: rgb(15, 1, 1);
+
+}
+
+#toggle:checked~.menu {
+    box-shadow: opx 0xp 0px 100vmx rgb(22, 1, 1);
+    z-index: 1;
+}
+
+#toggle:checked~.menu-items {
+    visibility: visible;
+    opacity: 1;
+}
+
+container {
+
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+card {
+    width: 200px;
+    height: 200px;
+    color: black;
+
+}
+
+.card-text {
+
+    letter-spacing: 5px;
+    color: black;
+    margin-bottom: 1cm;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    margin-bottom: 1px;
+    width: 40x;
+    height: 40px;
+}
+
+footer a {
+    margin: 0px;
+    font-size: 15px;
+}
+
+footer p {
+    margin: 5px;
+    text-align: center;
+}

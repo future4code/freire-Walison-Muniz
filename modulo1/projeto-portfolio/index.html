@@ -3,71 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Walison Muniz</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home - Walison Muniz</title>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Walison Muniz</a>
-            </li>
-            <li>
-                <a href="galeria.html">Galeria</a>
-            </li>
-            <li>
-                <a href="contato.html">Contato</a>
-            </li>
-        </ul>
-    </nav>
-    <header>
-        <div class="central">
-            <img src="./agregador/Foto.jpg"></img>
-            <h1>Walison Muniz</h1>
-            <H2> Desenvolvedor Full Stack </H2>
+    <header class="header-container">
+        <div class="header">
+            <div class="checkbox-container"></div>
+            <div class="checkbox-wrapper"></div>
+            <input type="checkbox" id="toggle">
+            <label class="checkbox" for="toggle">
+                <div class="trace"></div>
+                <div class="trace"></div>
+                <div class="trace"></div>
+            </label>
+            <div class="menu"></div>
+            <nav class="menu-items">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="projetos.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
+        </div>
+        <h1>Walison Muniz</h1>
+        <h2> Full Stack Developer</h2>
     </header>
-    <main>
-        <section>
-            <H3>Sobre mim</H3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, earum adipisci 
-                voluptatem dicta amet magni maxime provident, neque tempora aut aliquam minus ea illum nihil! 
-                Optio mollitia dolorum necessitatibus. Veritatis.
-            </p>
-        </section>
-        <section>
-            <H3>Formação</H3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, earum adipisci 
-                voluptatem dicta amet magni maxime provident, neque tempora aut aliquam minus ea illum nihil! 
-                Optio mollitia dolorum necessitatibus. Veritatis.
-            </p>
-        </section>
-        <section>
-            <H3>Skills</H3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, earum adipisci 
-                voluptatem dicta amet magni maxime provident, neque tempora aut aliquam minus ea illum nihil! 
-                Optio mollitia dolorum necessitatibus. Veritatis.
-            </p>
-        </section>
+    <img src="./agregador/Foto.jpg"></img>
+    <main class="container">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper1">
+                </div>
+            </div>
+            <h2>Quem Sou Eu</h2>
+            <div class="card-text">
+                <p>Experiência de 18 anos na área comercial e administrativas, sempre voltada para vendas e foco nos
+                    resultados definidos pela empresa.
+                </p>
+                <p>Estudante Labenu: HTML, CSS, Javascript; React, JSX, Material UI, Hooks; Git, Testes Unitários,
+                    Desenvolvimento;
+                    Ágil, TDD, Estrutura de Dados, Algoritmo.
+                </p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper2">
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper3">
+                </div>
+            </div>
+            <h2>Formação</h2>
+            <div class="card-text">
+                <p>Administração de empresas - Faculdade Estacio de Sá</p>
+
+                <p>Stack - Labenu Cursos de Programação</p>
+
+                <p>Ingles A2 - Open English Ingles Online </p>
+            </div>
+        </div>
     </main>
     <footer>
-        <a href="https://www.linkedin.com/in/walison-muniz-22990320b" target="_blank">
-            <img src="./agregador/linkedin-logo.png">
-            <p>Linkedin</p>
+        <a href="https://www.linkedin.com/in/walison-muniz-22990320b">
+            <img src="./agregador/icons8-linkedin-circundado.svg">
         </a>
-        <a href="https://github.com/walison33-fillipe" target="_blank">
-            <img src="">
-            <p>GitHub</p>
+        <a href="https://github.com/walison33-fillipe">
+            <img src="./agregador/icons8-github.svg">
         </a>
-        <a href="https://www.facebook.com/fillipe.nascimento" target="_blank">
-            <img src="">
-            <p>facebook</p>
+        <a href="https://www.facebook.com/fillipe.nascimento">
+            <img src="./agregador/icons8-facebook.svg">
         </a>
     </footer>
 </body>
