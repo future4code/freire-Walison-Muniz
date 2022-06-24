@@ -1,0 +1,72 @@
+/*Aqui vai o cabeçalho do meu site*/
+.header {
+    background-color: mediumvioletred;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.tittle-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* Aqui vai minhas listas e barras de navegação*/
+
+.nav {
+    background-color: #f2d0e0;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.icon{
+    width: 25px;
+    padding-right: 15px;
+    align-content: center;
+}
+.icon-seta{
+    height: 15px;
+
+}
+/*Aqui vai todo conteudo do meu site*/
+.card{
+    width: 350px;
+}
+.card-img{
+    width: 100%;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.container-pai {
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.container-pai>div {
+    background-color: white;
+    margin: 6px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: mediumvioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
