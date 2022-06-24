@@ -1,0 +1,10 @@
+ˋˋˋlet listaNomes = animais.map((array) => {       
+ˋˋˋreturn array.nome    
+  
+  
+ˋˋˋ})     
+
+
+ˋˋˋreturn listaNomes 
+  
+ˋˋˋ}

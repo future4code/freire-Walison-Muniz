@@ -1,0 +1,7 @@
+```function calculaSalario(qtdeCarrosVendidos, valorTotalVendas) {
+```comissaoPorVenda = (qtdeCarrosVendidos * 100) + (valorTotalVendas * 0.05)
+```salarioFinal = comissaoPorVenda + 2000
+```return salarioFinal
+```}
+
+

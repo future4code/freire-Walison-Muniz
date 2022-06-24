@@ -1,0 +1,23 @@
+.myBox{
+  background-image: url(../img/fundo.png);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 437px;
+  border: 1px solid black;
+  margin: 100px;
+
+}
+.myTitlle{
+padding-bottom: 450px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.myButon{
+  background-color: green;
+}
+.insertDados{
+  border: 14px solid rgb(214, 214, 228);
+}
