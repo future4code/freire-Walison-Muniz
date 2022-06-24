@@ -1,0 +1,10 @@
+```const mapaTarefas = tarefas.filter((item) => {
+```return item.status === "done"
+
+```})
+
+```const tarefasDone = mapaTarefas.map((item) =>{
+```return item.titulo
+```})
+```return tarefasDone
+```}
