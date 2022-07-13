@@ -2,17 +2,11 @@ import React from 'react';
 import Styled from 'styled-components'
 
 const HomeApplicationFormPage = Styled.div`
-    margin: 30px;
-    padding: 0px;
-    width: 100vw;
-    min-height: 100vh;
     display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
     flex-direction: column;
-
+    align-items: center;
+    margin: 150px;
+    
 `
 const H1 = Styled.div`
     text-align: center;
@@ -33,20 +27,20 @@ const Form = Styled.div`
     align-items: center;
     width: 500px;
     margin-top: 0em;
-
 `
 const SelectOne = Styled.div`
-    width: 518px;
-    height: 40px;
+    width: 100%;
+    height: 30px;
     border-radius: 10px;
     padding: 4px 8px;
     border-width: 1px;
-    margin: 0px 0px 15px;
+    border-color: gray;
+    margin: 0px 0px 35px;
 `
 const Input = Styled.div`
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 102%;
     height: 30px;
     border-radius: 10px;
     padding: 4px 8px;
@@ -55,21 +49,20 @@ const Input = Styled.div`
     margin: 0px 0px 15px;
 `
 const SelectTwo = Styled.div`
-    width: 518px;
-    height: 40px;
+    width: 100%;
+    height: 30px;
     border-radius: 10px;
     padding: 4px 8px;
     border-width: 1px;
-    margin: 0px 0px 15px;
+    border-color: gray;
+    margin: 35px 0px 35px;
 `
 
 const Buttons = Styled.div`
     display: flex;
     justify-content: space-around;
     width: 500px;
-    margin: 10px 0px;
-    
-    
+    margin: 30px 10px;
 `
 
 
@@ -80,10 +73,10 @@ function ApplicationFormPage() {
             <Form action="Cadastrar Viagem">
                 <SelectOne>
                     <select multiple name="Viagem" id="viagem">
-                        <option value="">loren10</option>
-                        <option value="">loren10</option>
-                        <option value="">loren10</option>
-                        <option value="">loren10</option>
+                        <option value="">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</option>
+                        <option value="">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</option>
+                        <option value="">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</option>
+                        <option value="">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</option>
                     </select>
                 </SelectOne>
                 <Input>
@@ -94,10 +87,10 @@ function ApplicationFormPage() {
                 </Input>
                 <SelectTwo>
                     <select multiple name="Pais" id="pais">
-                        <option value="">loren10</option>
-                        <option value="">loren10</option>
-                        <option value="">loren10</option>
-                        <option value="">loren10</option>
+                        <option value="">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</option>
+                        <option value="">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</option>
+                        <option value="">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</option>
+                        <option value="">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</option>
                     </select>
                 </SelectTwo>
             </Form>

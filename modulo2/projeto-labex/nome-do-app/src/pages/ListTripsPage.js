@@ -7,9 +7,9 @@ const ContainerListTripesPage = Styled.div`
     margin-top: 70px;
 `
 const ButtonsListTripesPage = Styled.div`
-    background-color: blue;
-    height: 30px;
-   Width: 50%;
+     background-color: blue;
+     height: 30px;
+     Width: 50%;
      display: flex;
      justify-content: space-evenly;
      align-content: center;
@@ -22,7 +22,7 @@ const TittleListTripesPage = Styled.div`
      margin-top: 50px;
      font-size: 18px;
 `
-function ListTripesPage() {
+function ListTripesPage(props) {
     return (
         <ContainerListTripesPage>
             <ButtonsListTripesPage>
