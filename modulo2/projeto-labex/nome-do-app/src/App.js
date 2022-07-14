@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react"
 import Styled from 'styled-components';
 import ListTripesPage from './pages/ListTripsPage';
 // import ApplicationFormPage from './pages/ApplicationFormPage'
@@ -6,16 +6,7 @@ import LoginPage from './pages/LoginPage'
 // import CreateTripPage from './pages/CreateTripPage';
 // import TripDetailsPage from './pages/TripDetailsPage';
 
-const [viagens, setVerViagens] = useState(changeViagens)
-const [areaAdmin, setAreaAdmin] = useState(changeArea)
 
-const changeViagens = (event) => {
-  setVerViagens(event.target.value)
-}
-
-const changeArea = (event) => {
-  setAreaAdmin(event.target.value)
-}
 const Home = Styled.div`
   display: flex;
   flex-direction: column;
@@ -35,18 +26,32 @@ const Buttons = Styled.div`
     justify-content: space-evenly;    
     //justify-content: space-between;
   `
-function App() {
+
+
+const App = () => {
+
+  const [viagens, setVerViagens] = useState();
+  const [areaAdmin, setAreaAdmin] = useState();
+
+  const changeViagens = (event) => {
+    setVerViagens(event.value)
+  }
+  
+  const changeArea = (event) => {
+    setAreaAdmin(event.value)
+  }
+
   return (
     <Home>
       <Tittle>
         <h1>LabeX</h1>
       </Tittle>
       <Buttons>
-        <button onClick={changeViagens} value={"viagens"}>Ver viagens</button>
+        <button onClick={changeViagens} value={"vigens"}>Ver viagens</button>
         <button onChange={changeArea} value={"areaAdmin"}>Área de Admin</button>
       </Buttons>
-      {viagens === <ListTripesPage changeViagens={ListTripesPage}/>}
-      {areaAdmin === <LoginPage changeArea={LoginPage}/>}
+      {viagens === <ListTripesPage changeViagens={ListTripesPage} />}
+      {areaAdmin === <LoginPage changeArea={LoginPage} />}
     </Home>
     // <div>
     //   <ApplicationFormPage/>

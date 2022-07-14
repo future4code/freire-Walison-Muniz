@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Styled from 'styled-components';
 
 
@@ -22,8 +22,10 @@ const TittleListTripesPage = Styled.div`
      margin-top: 50px;
      font-size: 18px;
 `
-function ListTripesPage(props) {
-    return (
+const ListTripesPage = (props) => {
+
+    const [viagens,setVerViagens] = useState (changeViagens);
+       return (
         <ContainerListTripesPage>
             <ButtonsListTripesPage>
                 <button>Voltar</button>
